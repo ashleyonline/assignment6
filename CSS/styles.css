@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #222222
+}
+
+div.container {
+  display: flex
+}
+
+div.container>div.left {
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 10px;
+  position: fixed
+}
+
+div.container>div.right {
+  width: 75%;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 25%
+}
+
+div.section-container {
+  display: flex
+}
+
+div.section-left {
+  width: 66.67%
+}
+
+div.section-right {
+  width: 33.33%;
+  margin-left: 20px;
+  margin-right: 80px
+}
+
+img {
+  width: 100%;
+  margin-bottom: 20px
+}
+
+a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+a:link {
+  text-decoration: none;
+  color: #222222
+}
+
+a:visited {
+  color: #222222
+}
+
+a:hover {
+  color: #5a00fa
+}
+
+a:active {
+  color: #5a00fa
+}
+
+a#email {
+  color: #222222
+}
+
+a#email:visited {
+  color: #222222
+}
+
+a#email:hover {
+  color: #5a00fa
+}
+
+a#email:active {
+  color: #5a00fa
+}
+
+h1 {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 500;
+  font-style: normal font-size: 28pt;
+  line-height: 42pt;
+  margin-bottom: 20px
+}
+
+h2 {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18pt;
+  line-height: 25pt;
+  margin-bottom: 20px
+}
+
+h3 {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28pt;
+  line-height: 42pt;
+  margin-bottom: 20px
+}
+
+h4 {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18pt;
+  line-height: 25pt;
+}
+
+h5 {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18pt;
+  line-height: 25pt
+}
+
+ul {
+  margin-bottom: 20pt;
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  line-height: 25pt
+}
+
+nav>ul {
+  list-style-type: none
+}
+
+h5+ul {
+  margin-bottom: 40px;
+  list-style-type: none
+}
+
+p {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  line-height: 25pt;
+  margin-bottom: 40px
+}
+
+div.center > p {
+  font-family: "neue-haas-unica", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18pt;
+  line-height: 18pt;
+  margin-bottom: 20px
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px
+}
